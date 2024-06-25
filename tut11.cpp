@@ -13,7 +13,7 @@ void printArray(int arr[],int n){
 //  int num[15];
 // // access an array
 //  cout<<"value of 1 is "<<num[1]<<endl;
-//   cout<<"value of 20 is "<<num[20]<<endl;
+//   cout<<"value of 20 is "<<num[20]<<endl; //Erroer will show
 
 // // baki element 0
 //  int third[15]={2,32};

@@ -20,5 +20,6 @@
     {
         cin>>num[i];
     }
-    cout<<"min value is "<<getMin(num,size)
-    <<endl; }
+    cout<<"min value is "<< getMin(num,size)<< endl;
+    return 0;
+     }
