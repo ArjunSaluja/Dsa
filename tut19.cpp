@@ -51,5 +51,5 @@ int main(){
     cout<< "last occurence of 3 index is "<<lastOccur(even,3,9);
 return 0;
 }
-     
+     // wrong ha
   
