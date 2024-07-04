@@ -7,6 +7,10 @@ void printArray(int arr[],int n){
  cout<<arr[i]<<"";
 
     }
+    for (int j=0;j<n;j++){
+ cout<<arr[j]<<"";
+
+    }
     cout<<endl;
 
 }
@@ -23,7 +27,7 @@ void bubbleSort(int arr[], int n){
 
   int main(){
 
-    int arr[8]={2, 34, 45, 1, 67, 23 ,11 ,22};
+    int arr[8]={2,3,1,4,6,75,5,11};
     bubbleSort(arr,8);
     printArray(arr,8);
   }
