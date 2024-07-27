@@ -1,27 +1,27 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
 
-void print(int*p){
-    cout<<p<<endl;
-    cout<<*p<<endl;
+// void print(int*p){
+//     cout<<p<<endl;
+//     cout<<*p<<endl;
 
-}
-void update(int*p){
-    // p=p+1;
-    *p=*p+1;
-}
-void getSum(int arr[],int n){
+// }
+// void update(int*p){
+//     // p=p+1;
+//     *p=*p+1;
+// }
+// void getSum(int arr[],int n){
 
-    int sum=0;
-    for(int i=0; i<n;i++){
-        sum+=arr[i];
-    }
-    return sum;
-}
+//     int sum=0;
+//     for(int i=0; i<n;i++){
+//         sum+=arr[i];
+//     }
+//     return sum;
+// }
 
 
- int main(){
+// //  int main(){
  
 //  int value=5;
 //  int*p= &value;
@@ -35,8 +35,8 @@ void getSum(int arr[],int n){
 // cout<<"after"<<*p<<endl;
 
 
-int arr[5]={12,23,1222,11,13};
-cout<<"sum is"<<getSum(arr,5)<<endl;
+// int arr[5]={12,23,1222,11,13};
+// cout<<"sum is"<<getSum(arr,5)<<endl;
 
 
- }
+//  }
