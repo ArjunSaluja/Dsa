@@ -4,9 +4,9 @@ void update(int **p){
    // p2=p2+1;
     // kuch cahange hoga-no
 
-     *p=*p+1;
+     *p2=*p2+1;
 
-// // kuch change hoga
+// // kuch change hoga=yes
 
 //     **p=**p+1;
 }
