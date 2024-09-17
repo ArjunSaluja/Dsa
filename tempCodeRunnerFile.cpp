@@ -1,3 +1,5 @@
- cout<< "printing p"<<p<<endl;
- cout<< "address of p"<<&p<<endl;
- cout<<*p2<<endl;
+Hero S(40,'s');
+// S.print();
+// // copy constructor
+// Hero ritesh(S);
+// ritesh.print();

@@ -7,14 +7,13 @@ class Hero{
 
     public:
     char level;
-    // parameter
-    Hero(int health){
-        cout<<"this->" <<this<<endl;
-        this -> health=health;
+    Hero(){
+        cout<<"simple constructor is called"<<endl;
     }
 
-    void ptint(){
-        cout<<level<<endl;
+    void print(){
+        cout<<"health "<<this->health<<endl;
+         cout<<"level "<<this->level<<endl;
 
     }
     int getHealth(){
@@ -33,10 +32,10 @@ class Hero{
     }
 };
 int main(){
-    Hero ramesh(10);
-    cout<<"address of ramesh is "<< &ramesh<<endl;
-    ramesh.getHealth();
 
-    Hero *h = new Hero(11);
-
+ Hero S(40,'s');
+S.print();
+// // copy constructor
+// Hero ritesh(S);
+// ritesh.print();
 }
