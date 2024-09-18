@@ -1,4 +1,4 @@
- #include<iostream>
+#include<iostream>
  #include<cstring>
 using namespace std;
 
@@ -52,21 +52,14 @@ class Hero{
     void setName(char name[]){
         strcpy(this->name,name);
     }
+    ~Hero(){
+        cout<<"Destrucctor bhai called"<<endl;
+    }
 };
 int main(){
-Hero hero1;
-hero1.setHealth(12);
-hero1.setLevel('D');
-char name[7]="babbar";
-hero1.setName(name);
-hero1.print();
-// use deafault
-Hero hero2(hero1);
-hero2.print();
 
-hero1.name[0]='G';
-hero1.print();
-
-hero2.print();
-
+// static
+Hero a;
+Hero *b = new Hero();
+delete b;
 }

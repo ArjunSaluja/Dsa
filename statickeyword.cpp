@@ -1,4 +1,4 @@
- #include<iostream>
+#include<iostream>
  #include<cstring>
 using namespace std;
 
@@ -9,6 +9,7 @@ class Hero{
     public:
     char *name;
     char level;
+    static int timetocomplete;
     // parameter
 
     Hero(){
@@ -53,20 +54,8 @@ class Hero{
         strcpy(this->name,name);
     }
 };
+int Hero:: timetocomplete=5;
+
 int main(){
-Hero hero1;
-hero1.setHealth(12);
-hero1.setLevel('D');
-char name[7]="babbar";
-hero1.setName(name);
-hero1.print();
-// use deafault
-Hero hero2(hero1);
-hero2.print();
-
-hero1.name[0]='G';
-hero1.print();
-
-hero2.print();
-
+    cout<<Hero::timetocomplete<<endl;
 }
