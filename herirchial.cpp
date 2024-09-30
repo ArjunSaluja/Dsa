@@ -24,7 +24,9 @@ class C :public A{
 int main(){
     A object1;
     object1.func1();
-    object1.func2();
-    
+    B object2;
+    object2.func2();
+    object2.func1
+
 }
 
