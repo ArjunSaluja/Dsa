@@ -37,6 +37,18 @@ int main(){
    m.erase("love");
    cout<<m.size()<<endl;
    
+//    for(auto i: m){
+//     cout<< i.first<<" "<<i.second<<endl;
+
+    // iterator upar nicha ata hai output
+    
+    unordered_map<string, int>:: iterator it=m.begin();
+
+    while(it!=m.end()){
+        cout<<it->first<<" "<<it->second<<endl;
+        it++;
+    }
+   }
 
 
 }
