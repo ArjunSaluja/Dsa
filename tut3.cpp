@@ -5,7 +5,7 @@
 //      int n;
 //     cin>>n;
 //     int i=1;
-//     // while (i<=n)
+//     // while (i<=n)          // 1 2 3 4 5
 //     // {
 //     //     cout<<i<<endl;
 //     //     i=i+1;
